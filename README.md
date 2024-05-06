@@ -24,10 +24,10 @@
 
 ### About The Project
 
-Welcome to Virtual Office app, this virtual office app is built with Flutter (Dart)
-on the client side, Node.js, Express and SQL on the server side, and SQLLite3 as the database. 
-This project aims to provide companies with a comprehensive system for managing office space, 
-allowing them to create and manage office space seamlessly.
+Welcome to the ATM_Project, this bank simulation app is built with Angular (TypeScript)
+for the frontend, Node.js and Express for the backend, and SQLLite3 as the database. 
+This project aims to provide users with a comprehensive bank simulation experience, 
+allowing them to perform various transactions, view balances, and manage their accounts seamlessly.
 
 
 ## Getting Started
@@ -35,13 +35,12 @@ allowing them to create and manage office space seamlessly.
 #### Responsive Mobile app
 
 ### Features
-* <b>Account Management:</b> Company can view all active members added to their office space.
-* <b>Members Management:</b> View, Create, Update, and Delete office workers.
-* <b>Office Management:</b> View, Create, Update, and Delete offices.
-* <b>List of Office Spaces:</b> View current offices and a brief summary of their occupants.
-* <b>Create Office:</b> Create multiple virtual office space.
-* <b>Office View:</b> View the office details including individuals who work at the office.
-* <b>Filter Members:</b> Filter the list of members within the office using a search component.
+* <b>User Authentication:</b> Secure sign-up and login functionalities for users.
+* <b>Account Management:</b> Users can view all active accounts registered under their profile.
+* <b>Transaction History:</b> Access a detailed transaction history for each account.
+* <b>Deposit and Withdrawal:</b> Perform financial transactions, including depositing and withdrawing money.
+* <b>Money Transfer:</b> Transfer funds between different accounts.
+* <b>Real-time Balances:</b> View real-time balances for all active accounts.
 
 
 ### Installation
@@ -52,10 +51,27 @@ allowing them to create and manage office space seamlessly.
 2. Install dependencies:
    * Delete package-lock.json file
    * Delete node_modules directory
-   ```sh
-   npm install
-   ```
+   * Install dependencies:
+     ```sh
+     npm install node@latest
+     ```
+     ```sh
+     npm install express, sqlite3
+     ```
+     ```sh
+     npm install
+     ```
 3. Run locally:
+   * local host url http://localhost:3000
+   * Install <b>SQLite3 Editor</b> extension on VSCode, to be able to view the local database.
+   ```sh
+   npm run start
+   ```
+   
+5. Database Configuration:
+   * Set up the SQLLite3 database.
+   * Execute the SQL scripts in the `database` directory to create the necessary tables.
+12. Run the Backend:
    * local host url http://localhost:3000
    * Install <b>SQLite3 Editor</b> extension on VSCode, to be able to view the local database.
    ```sh
@@ -63,6 +79,14 @@ allowing them to create and manage office space seamlessly.
    ```
   
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Usage
+
+1. Sign up or log in to access the bank simulation.
+2. View all active accounts registered under your profile.
+3. Perform transactions, including deposits, withdrawals, and fund transfers.
+4. Access a detailed transaction history for each account.
+5. View real-time balances for all active accounts.
 
 <!-- CONTRIBUTING -->
 
